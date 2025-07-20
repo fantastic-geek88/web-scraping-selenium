@@ -1,6 +1,9 @@
 import pandas as pd
 
-data = {"fruits": ["apple", "banana", "cherry"], "colors": ["red", "yellow", "purple"]}
+data = {
+    "fruits": ["apple", "banana", "cherry", "guava"],
+    "colors": ["red", "yellow", "purple", "pink"],
+}
 df = pd.DataFrame(data)
 
 df.head(2)
